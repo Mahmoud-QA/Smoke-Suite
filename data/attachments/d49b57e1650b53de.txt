@@ -32,3 +32,4 @@ Billing Information
 Manage your payment methods, billing address, and download past invoices through the Stripe Customer Portal.
 
 Secure payment
+No text input found on create-org form -- form structure may differ from expected.
