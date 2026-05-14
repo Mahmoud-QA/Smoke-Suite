@@ -1,0 +1,15 @@
+node_modules/
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+screenshots/
+*.png
+*.jpg
+*.mp4
+*.webm
+pw-results*.json
+playwright-results.json
+pw-stderr*.txt
+.env
+.env.local

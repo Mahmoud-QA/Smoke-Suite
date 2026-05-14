@@ -1,0 +1,21 @@
+{
+  "name": "synkvault-smoke-suite",
+  "version": "1.0.0",
+  "description": "SynkVault Playwright smoke test suite with Allure reporting",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --config=playwright.smoke.config.ts",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "ci:smoke": "playwright test --config=playwright.smoke.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "allure-commandline": "^2.41.0",
+    "allure-playwright": "^3.8.0"
+  }
+}
