@@ -1,0 +1,17 @@
+Registration URL: https://app.synkvault.net/auth/signup
+Text inputs found: 2
+CREATE ACCOUNT enabled after filling all fields: true
+Registration API intercepted: https://fikqrdxiubedfjqblvfw.supabase.co/auth/v1/signup?redirect_to=https%3A%2F%2Fapp.synkvault.net%2Fconfirm
+Post-registration URL: https://app.synkvault.net/auth/signup/success
+Post-registration content: Check Your Email
+
+We've sent a confirmation email to your inbox. Please click the link in the email to verify your account and complete your registration.
+
+Didn't receive the email?
+Check your spam or junk folder
+Make sure you entered the correct email address
+Wait a few minutes and check again
+BACK TO SIGN IN
+GO TO HOME
+Registration API called: true
+Registration confirmation shown: true

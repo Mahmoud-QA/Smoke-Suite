@@ -1,0 +1,84 @@
+/settings/organization -> https://app.synkvault.net/settings/organization | 404: false | Has member content: false
+/settings/users -> https://app.synkvault.net/settings/users | 404: false | Has member content: true
+Member page content: Cyberneticlabs.io
+Organization Information
+
+Organization Switching Restricted
+
+You must remain in the default organization
+
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Users
+1/3 seats
+Invite User
+Email
+	
+Role
+	
+Status
+	
+
+m.habib@cyberneticlabs.io	
+Owner
+	
+Active
+	
+Items per page:
+10
+1-1 of 1
+Email "m.habib@cyberneticlabs.io" appears 1 time(s) on member page
+Invite button found: true
+Send invite disabled for existing member email: false
+Invite errors for existing member: [ '', '', '', '' ]
+Body after invite submit: Cyberneticlabs.io
+Organization Information
+
+Organization Switching Restricted
+
+You must remain in the default organization
+
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Users
+1/3 seats
+Invite User
+Email
+	
+Role
+	
+Status
+	
+
+m.habib@cyberneticlabs.io	
+Owner
+	
+Active
+	
+Items per page:
+10
+1-1 of 1
+Invite New User
+2 seats available
+·
+1/3 used
+Single
+Multiple
+Email
+User
+Role
+Cancel
+Send Invite
+Duplicate-member guard triggered: false
