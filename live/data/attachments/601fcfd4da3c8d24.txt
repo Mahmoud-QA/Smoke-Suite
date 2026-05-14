@@ -1,0 +1,4 @@
+URL after login: https://app.synkvault.net/
+Final URL after navigating to /login while authenticated: https://app.synkvault.net/login
+Login form visible: false
+Redirected away from /login: true

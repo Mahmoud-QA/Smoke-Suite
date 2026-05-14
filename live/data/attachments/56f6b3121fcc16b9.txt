@@ -1,0 +1,3 @@
+URL after unauthenticated /settings/billing access: https://app.synkvault.net/auth
+Redirected to /login or /auth: true
+Billing data exposed to unauthenticated user: false

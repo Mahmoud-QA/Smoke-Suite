@@ -1,0 +1,4 @@
+URL after unauthenticated /ontology access: https://app.synkvault.net/auth
+Redirected to /login or /auth: true
+Login form visible: true
+Ontology editor content exposed to unauthenticated user: false

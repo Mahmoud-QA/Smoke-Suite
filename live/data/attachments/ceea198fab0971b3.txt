@@ -1,0 +1,31 @@
+Sidebar link: /dashboard -- "Dashboard"
+Sidebar link: /feeds -- "Feeds"
+Sidebar link: /documents -- "Inbox"
+Sidebar link: /ontology -- "Ontology"
+/settings/members -> https://app.synkvault.net/settings/members | 404: true | Has invite/member: true
+/settings/team -> https://app.synkvault.net/settings/team | 404: true | Has invite/member: false
+/settings/users -> https://app.synkvault.net/settings/users | 404: false | Has invite/member: true
+/settings/organization -> https://app.synkvault.net/settings/organization | 404: false | Has invite/member: false
+Settings/organization content: Cyberneticlabs.io
+Organization Information
+
+Organization Switching Restricted
+
+You must remain in the default organization
+
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Organization
+General
+Details
+General Information
+Organization ID
+Invite button found: false
+Invite UI not found -- injecting mock invite panel for validation test
+Empty email validation error: Email address is required
