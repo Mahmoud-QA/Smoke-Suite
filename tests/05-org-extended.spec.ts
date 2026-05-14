@@ -311,7 +311,8 @@ test.describe('TC-14 | Create-org form rejects a duplicate slug', () => {
       console.log('Duplicate slug error shown:', hasDuplicateError);
     } else {
       // Fill org name and submit to trigger back-end slug collision check
-      const nameInput = page.locator('input[type="text"], input').first();
+      // Explicitly exclude checkboxes/radios to avoid Vuetify switch inputs
+      const nameInput = page.locator('input[type="text"]:not([type="checkbox"]):not([type="radio"])').first();
       const hasNameInput = await nameInput.isVisible({ timeout: 2000 }).catch(() => false);
       if (hasNameInput) {
         await nameInput.fill('SynkVault');
@@ -324,6 +325,8 @@ test.describe('TC-14 | Create-org form rejects a duplicate slug', () => {
           const errText = await page.locator('body').innerText();
           console.log('Post-submit content:', errText.substring(0, 500));
         }
+      } else {
+        console.log('No text input found on create-org form -- form structure may differ from expected.');
       }
     }
 
