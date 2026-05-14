@@ -1,0 +1,5 @@
+Testing with uppercase email: M.HABIB@CYBERNETICLABS.IO
+URL after uppercase login attempt: https://app.synkvault.net/
+Logged in (case-insensitive auth): true
+Clear error shown: false
+Server crash / 500: false

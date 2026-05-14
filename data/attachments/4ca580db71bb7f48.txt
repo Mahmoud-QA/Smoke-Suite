@@ -1,0 +1,14 @@
+Sidebar <a href> routes found: [ '/', '/my-documents' ]
+Testing routes: [
+  '/',
+  '/my-documents',
+  '/integrations',
+  '/ontology',
+  '/settings/billing'
+]
+Route / â†’ https://app.synkvault.net/ | OK: true | 404: false | LoginRedirect: false
+Route /my-documents â†’ https://app.synkvault.net/my-documents | OK: true | 404: false | LoginRedirect: false
+Route /integrations â†’ https://app.synkvault.net/integrations | OK: true | 404: false | LoginRedirect: false
+Route /ontology â†’ https://app.synkvault.net/ontology | OK: true | 404: false | LoginRedirect: false
+Route /settings/billing â†’ https://app.synkvault.net/settings/billing | OK: true | 404: false | LoginRedirect: false
+Failed routes: []

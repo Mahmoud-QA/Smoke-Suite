@@ -1,0 +1,2 @@
+Invite button found: false
+KNOWN GAP: Invite UI not found â€” members/invite feature not present in current build.
