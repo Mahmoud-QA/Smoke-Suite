@@ -1,0 +1,8 @@
+Registration URL: https://app.synkvault.net/auth/signup
+Registration form HTML (excerpt): <div data-v-e4a9caf0="" class="v-input v-input--horizontal v-input--center-affix v-input--density-default v-theme--lightTheme v-locale--is-ltr v-text-field mb-4"><!----><div class="v-input__control"><div class="v-field v-field--center-affix v-field--prepended v-field--variant-outlined v-theme--lightTheme v-locale--is-ltr"><div class="v-field__overlay"></div><div class="v-field__loader"><div class="v-progress-linear v-theme--lightTheme v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;"><!----><div class="v-progress-linear__background"></div><div class="v-progress-linear__buffer" style="width: 0%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><div class="v-field__prepend-inner"><i class="mdi-email mdi v-icon notranslate v-theme--lightThem
+Input field count: 5
+Field: { type: 'email', name: null, placeholder: null }
+Field: { type: 'text', name: null, placeholder: null }
+Field: { type: 'text', name: null, placeholder: null }
+Field: { type: 'password', name: null, placeholder: null }
+Field: { type: 'password', name: null, placeholder: null }

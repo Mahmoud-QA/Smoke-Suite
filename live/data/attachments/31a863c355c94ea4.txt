@@ -1,0 +1,3 @@
+Password field visible: true
+Visibility toggle button visible: false
+FINDING: No password visibility toggle found on login form in current build.

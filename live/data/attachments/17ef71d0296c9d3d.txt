@@ -1,0 +1,6 @@
+Avatar menu items for sign-out test: [ 'My Account', 'Admin Portal' ]
+Sign Out option in avatar menu: false
+FINDING: No direct Sign Out in avatar menu. Menu has: [ 'My Account', 'Admin Portal' ]
+Sign Out in sidebar: false
+FINDING: Sign Out not found in avatar menu or sidebar in current build.
+TC-443 is BLOCKED â€” logout mechanism not discoverable via UI automation.

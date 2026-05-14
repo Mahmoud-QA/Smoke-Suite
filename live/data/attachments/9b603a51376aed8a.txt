@@ -1,0 +1,39 @@
+Route /settings/billing â†’ https://app.synkvault.net/settings/billing | 404: false
+Route /onboarding/subscribe â†’ https://app.synkvault.net/onboarding/subscribe | 404: true
+Route /organizations/subscribe â†’ https://app.synkvault.net/organizations/subscribe | 404: false
+Billing page content: Cyberneticlabs.io
+Organization Information
+
+Organization Switching Restricted
+
+You must remain in the default organization
+
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Billing & Subscription
+Professional
+$90.00 / month
+ACTIVE
+Next Billing Date
+June 1, 2026
+just now
+Renewal
+Auto-renovates
+Utilization Metrics
+User Seats
+1 / 3
+Manage in Stripe Portal
+Billing Information
+
+Manage your payment methods, billing address, and download past invoices through the Stripe Customer Portal.
+
+Secure payments powered by Stripe
+Has plan info: true
+Has pricing info: true
+Page URL: https://app.synkvault.net/settings/billing
