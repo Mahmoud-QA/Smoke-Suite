@@ -11,8 +11,21 @@ on:
 
 jobs:
   smoke-tests:
-    name: Run Smoke Suite — Live
+    name: Smoke Suite — ${{ matrix.env_name }}
     runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - env_name: Live
+            base_url: https://app.synkvault.net
+            artifact_tag: live
+            pages_dir: live
+          - env_name: Dev
+            base_url: https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app
+            artifact_tag: dev
+            pages_dir: dev
 
     steps:
       - name: Checkout
@@ -30,13 +43,23 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
 
-      - name: Run Smoke Suite
+      - name: Set credentials for environment
+        run: |
+          if [ "${{ matrix.env_name }}" = "Dev" ] && [ -n "${{ secrets.DEV_EMAIL }}" ]; then
+            echo "RUN_EMAIL=${{ secrets.DEV_EMAIL }}" >> $GITHUB_ENV
+            echo "RUN_PASSWORD=${{ secrets.DEV_PASSWORD }}" >> $GITHUB_ENV
+          else
+            echo "RUN_EMAIL=${{ secrets.TEST_EMAIL }}" >> $GITHUB_ENV
+            echo "RUN_PASSWORD=${{ secrets.TEST_PASSWORD }}" >> $GITHUB_ENV
+          fi
+
+      - name: Run Smoke Suite — ${{ matrix.env_name }}
         run: npm run test:smoke
         continue-on-error: true
         env:
-          BASE_URL: ${{ vars.BASE_URL || 'https://app.synkvault.net' }}
-          TEST_EMAIL: ${{ secrets.TEST_EMAIL }}
-          TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
+          BASE_URL: ${{ matrix.base_url }}
+          TEST_EMAIL: ${{ env.RUN_EMAIL }}
+          TEST_PASSWORD: ${{ env.RUN_PASSWORD }}
 
       - name: Restore Allure history from gh-pages
         uses: actions/checkout@v4
@@ -50,9 +73,9 @@ jobs:
         if: always()
         continue-on-error: true
         run: |
-          if [ -d "gh-pages/history" ]; then
+          if [ -d "gh-pages/${{ matrix.pages_dir }}/history" ]; then
             mkdir -p allure-results
-            cp -r gh-pages/history allure-results/history
+            cp -r "gh-pages/${{ matrix.pages_dir }}/history" allure-results/history
           fi
 
       - name: Generate Allure report
@@ -63,7 +86,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: allure-results-run-${{ github.run_number }}
+          name: allure-results-${{ matrix.artifact_tag }}-run-${{ github.run_number }}
           path: allure-results/
           retention-days: 30
 
@@ -71,7 +94,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: allure-report-run-${{ github.run_number }}
+          name: allure-report-${{ matrix.artifact_tag }}-run-${{ github.run_number }}
           path: allure-report/
           retention-days: 30
 
@@ -82,3 +105,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: allure-report
           publish_branch: gh-pages
+          destination_dir: ${{ matrix.pages_dir }}
+          keep_files: true
