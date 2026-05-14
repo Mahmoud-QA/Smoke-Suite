@@ -1,0 +1,32 @@
+Add Organization option visible: true
+Create org form content: TQASE
+Organization Information
+
+Organization Switching Restricted
+
+You must remain in the default organization
+
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Billing & Subscription
+No Active Subscription
+
+Your organization doesn't have an active subscription plan yet.
+
+CHOOSE A PLAN
+Failed to load subscription details.
+CLOSE
+ILM Capital
+Cyberneticlabs.io
+Kayef
+Tqase
+Test_NEW_ORG
+Test1
+Add Organization
+No text input found on create-org form -- form structure may differ from expected.
