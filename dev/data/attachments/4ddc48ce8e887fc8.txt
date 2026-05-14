@@ -1,0 +1,29 @@
+Sidebar link: /dashboard â€” "Dashboard"
+Sidebar link: /feeds â€” "Feeds"
+Sidebar link: /documents â€” "Inbox"
+/settings/members â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/members | 404: true | Has invite/member: true
+/settings/team â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/team | 404: true | Has invite/member: false
+/settings/users â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/users | 404: false | Has invite/member: true
+/settings/organization â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/organization | 404: false | Has invite/member: false
+Settings/organization content: TQASE
+Organization Information
+
+Organization Switching Restricted
+
+You must remain in the default organization
+
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Organisation
+GENERAL
+DETAILS
+General Information
+Organisation ID
+Invite button found: false
+KNOWN GAP: Invite UI not found in settings â€” members/invite feature may not exist in current build.
