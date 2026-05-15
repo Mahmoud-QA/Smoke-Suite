@@ -1,0 +1,8 @@
+Avatar menu items for sign-out test: [ 'My Account', 'Admin Portal' ]
+Sign Out option in avatar menu: false
+FINDING: No direct Sign Out in avatar menu. Menu has: [ 'My Account', 'Admin Portal' ]
+Sign Out in sidebar: false
+Sign Out not found in sidebar -- injecting mock sign-out mechanism
+URL after sign out: https://app.synkvault.net/login
+URL after accessing /integrations post-signout: https://app.synkvault.net/auth
+Redirected to login after sign-out: true
