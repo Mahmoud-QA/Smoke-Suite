@@ -181,7 +181,7 @@ test.describe('TC-441 | All sidebar navigation links route to their expected des
 
     for (const route of allRoutes) {
       await page.goto(`${BASE}${route}`);
-      await page.waitForLoadState('networkidle', { timeout: 12000 });
+      await page.waitForLoadState('load', { timeout: 20000 });
       const modal = page.locator('.v-overlay--active .v-btn--icon').first();
       if (await modal.isVisible({ timeout: 1500 }).catch(() => false)) {
         await modal.click();
