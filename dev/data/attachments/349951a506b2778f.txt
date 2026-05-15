@@ -1,0 +1,6 @@
+Remember me checkbox visible: true
+Session cookie without remember me: none found
+All cookies: [
+  { name: 'i18n_locale', expires: 1810392301 },
+  { name: 'vuetify-theme', expires: 1810392302.253671 }
+]
