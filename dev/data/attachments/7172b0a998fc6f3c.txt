@@ -1,0 +1,30 @@
+Sidebar link: /dashboard -- "Dashboard"
+Sidebar link: /feeds -- "Feeds"
+Sidebar link: /documents -- "Inbox"
+/settings/members -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/members | 404: true | Has invite/member: true
+/settings/team -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/team | 404: true | Has invite/member: false
+/settings/users -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/users | 404: false | Has invite/member: true
+/settings/organization -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/organization | 404: false | Has invite/member: false
+Settings/organization content: TQASE
+Organization Information
+
+Organization Switching Restricted
+
+You must remain in the default organization
+
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Organisation
+GENERAL
+DETAILS
+General Information
+Organisation ID
+Invite button found: false
+Invite UI not found -- injecting mock invite panel for validation test
+Empty email validation error: Email address is required
