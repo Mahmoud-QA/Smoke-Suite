@@ -1,0 +1,37 @@
+Add Organization option visible: true
+Create org form URL: https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/billing
+Create org page content: TQASE
+Organization Information
+
+Organization Switching Restricted
+
+You must remain in the default organization
+
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Billing & Subscription
+No Active Subscription
+
+Your organization doesn't have an active subscription plan yet.
+
+CHOOSE A PLAN
+Failed to load subscription details.
+CLOSE
+ILM Capital
+Cyberneticlabs.io
+Kayef
+Tqase
+Test_NEW_ORG
+Test1
+WEST
+CCCC
+Add Organization
+Create button disabled when name empty: true
+Validation errors: [ '', '', '', '' ]
+Name validation triggered: true
