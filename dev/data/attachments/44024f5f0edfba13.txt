@@ -1,0 +1,46 @@
+/settings/organization -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/organization | 404: false | Has member content: false
+/settings/users -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/users | 404: false | Has member content: true
+Member page content: DDD
+Organization Information
+
+Organization Switching Restricted
+
+You must remain in the default organization
+
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Users
+INVITE USER
+Email
+	
+Role
+	
+Status
+	
+
+No data available
+Items per page:
+10
+0-0 of 0
+Failed to load users. Please try again.
+CLOSE
+Setup · Step 1 of 2
+Your knowledge ontology hasn't been set up yet.
+SynkVault organises your documents around a structured ontology — classes, relationships, properties. Choose how you'd like to define yours.
+Recommended
+Create with AI
+Describe your domain in natural language. AI proposes classes and relationships for your review before anything is saved.
+Start guided setup
+Create manually
+Open the Ontology Editor and define classes node-by-node. Best if you've already modelled your domain.
+Open edito
+Email "m.habib@cyberneticlabs.io" appears 0 time(s) on member page
+Invite button found: true
+Real invite button found -- will also verify via mock panel
+Duplicate invite error message: User is already a member of this organization
