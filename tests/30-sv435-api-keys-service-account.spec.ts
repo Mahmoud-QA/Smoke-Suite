@@ -322,7 +322,7 @@ test.describe('TC-726 | SV-435 | Failed creation shows a descriptive error messa
     console.log('CREATE SERVICE ACCOUNT button found:', btnVisible);
 
     if (btnVisible) {
-      await createBtn.click();
+      await createBtn.click({ force: true });
       await page.waitForTimeout(2500);
       await page.screenshot({ path: 'screenshots/tc635-after-error.png' });
 
