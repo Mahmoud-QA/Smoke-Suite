@@ -1,0 +1,43 @@
+Add Organization option visible: true
+Create org form URL: https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/billing
+Create org page content: TEST_NEW_ORG
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Billing & Subscription
+Professional
+£1,200.00 / month
+ACTIVE
+Next Billing Date
+June 8, 2026
+just now
+Renewal
+Auto-renovates
+Utilization Metrics
+User Seats
+7 / 7
+ADD SEATS
+MANAGE IN STRIPE PORTAL
+Billing Information
+
+Manage your payment methods, billing address, and download past invoices through the Stripe Customer Portal.
+
+Secure payments powered by Stripe
+ILM Capital
+Cyberneticlabs.io
+Kayef
+Tqase
+Test_NEW_ORG
+Test1
+WEST
+CCCC
+DDD
+Add
+Create button disabled when name empty: true
+Validation errors: [ '', '', '', '' ]
+Name validation triggered: true
