@@ -1,0 +1,27 @@
+Add Organization option visible: true
+Create org form URL: https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/billing
+Create org page content: KAYEF
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Billing & Subscription
+Access Restricted
+Only organization owners can manage billing and subscriptions.
+ILM Capital
+Cyberneticlabs.io
+Kayef
+Tqase
+Test_NEW_ORG
+Test1
+WEST
+CCCC
+DDD
+Add Organization
+Create button disabled when name empty: true
+Validation errors: [ '', '', '', '' ]
+Name validation triggered: true
