@@ -1,0 +1,16 @@
+Sidebar <a href> routes found: [ '/', '/explorer', '/my-documents' ]
+Testing routes: [
+  '/',
+  '/explorer',
+  '/my-documents',
+  '/integrations',
+  '/ontology',
+  '/settings/billing'
+]
+Route / â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/ | OK: true | 404: false | LoginRedirect: false
+Route /explorer â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/explorer | OK: true | 404: false | LoginRedirect: false
+Route /my-documents â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/my-documents | OK: true | 404: false | LoginRedirect: false
+Route /integrations â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/integrations | OK: true | 404: false | LoginRedirect: false
+Route /ontology â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/ontology | OK: true | 404: false | LoginRedirect: false
+Route /settings/billing â†’ https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/billing | OK: true | 404: false | LoginRedirect: false
+Failed routes: []
