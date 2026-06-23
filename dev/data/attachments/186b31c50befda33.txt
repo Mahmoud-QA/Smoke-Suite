@@ -1,0 +1,21 @@
+Sign-up input count: 5
+Input: { type: 'email', placeholder: null, label: null }
+Input: { type: 'text', placeholder: null, label: null }
+Input: { type: 'text', placeholder: null, label: null }
+Input: { type: 'password', placeholder: null, label: null }
+Input: { type: 'password', placeholder: null, label: null }
+CREATE ACCOUNT disabled with invalid email: true
+Inline error texts: [
+  'Please enter a valid email address',
+  'Please enter a valid email address',
+  'Please enter a valid email address',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  ''
+]
+Inline email error present: true

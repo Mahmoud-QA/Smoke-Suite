@@ -1,0 +1,64 @@
+/settings/organization -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/organization | 404: false | Has member content: false
+/settings/users -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/settings/users | 404: false | Has member content: true
+Member page content: ILM CAPITAL
+M
+⟪
+Dashboard
+Feeds
+Inbox
+Ontology
+Data
+Settings
+Users
+6/4 seats
+ADD SEATS
+INVITE USER
+Email
+	
+Role
+	
+Status
+	
+
+shehab.g@cyberneticlabs.io	
+Owner
+	
+Active
+	
+
+m.habib@cyberneticlabs.io	
+Admin
+	
+Active
+	
+
+omer@cyberneticlabs.io	
+Admin
+	
+Active
+	
+
+poonam@ilmcapital.co.uk	
+Admin
+	
+Active
+	
+
+ahmed@cyberneticlabs.io	
+Owner
+	
+Active
+	
+
+omerdamour9@gmail.com	
+User
+	
+Active
+	
+Items per page:
+10
+1-6 of 6
+Email "m.habib@cyberneticlabs.io" appears 1 time(s) on member page
+Invite button found: true
+Real invite button found -- will also verify via mock panel
+Duplicate invite error message: User is already a member of this organization
