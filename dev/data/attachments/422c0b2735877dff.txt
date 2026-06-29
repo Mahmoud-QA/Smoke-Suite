@@ -1,0 +1,4 @@
+URL after login: https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/
+Final URL after navigating to /login while authenticated: https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/login
+Login form visible: false
+Redirected away from /login: true
