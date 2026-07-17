@@ -1,0 +1,21 @@
+Submitting unregistered email: unknown.1784275177053@synkvault-test.dev
+Response to unregistered email: Check Your Email
+
+We've sent password reset instructions to unknown.1784275177053@synkvault-test.dev
+
+Next steps:
+
+Check your inbox for an email from SynkVault
+Click the reset link in the email (valid for 1 hour)
+Create a new password on the reset page
+ The email should arrive within a few minutes. If you don't see it, check your spam folder.
+
+Didn't receive the email?
+
+Check your spam or junk folder
+Wait a few minutes - emails can be delayed
+Make sure you entered the correct email address
+RESEND IN 57S
+BACK TO LOGIN
+Graceful response shown: true
+Crash / stack trace exposed: false
