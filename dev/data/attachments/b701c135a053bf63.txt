@@ -1,0 +1,8 @@
+v-avatar with initial visible: true
+Menu items after avatar click: [ 'My Account', 'Admin Portal' ]
+Avatar menu opened: true
+Has Sign Out option: false
+Has My Account option: true
+Has Admin Portal option: true
+FINDING: Avatar menu does not contain a Sign Out option in current build.
+FINDING: Avatar menu contains: [ 'My Account', 'Admin Portal' ]
