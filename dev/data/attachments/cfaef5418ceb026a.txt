@@ -1,0 +1,22 @@
+Sign-up form fields: [
+  {
+    "type": "email",
+    "placeholder": "Email"
+  },
+  {
+    "type": "text",
+    "placeholder": "First Name"
+  },
+  {
+    "type": "text",
+    "placeholder": "Last Name"
+  },
+  {
+    "type": "password",
+    "placeholder": "Password"
+  },
+  {
+    "type": "password",
+    "placeholder": "Confirm Password"
+  }
+]
