@@ -1,0 +1,20 @@
+Sign-up page content: Sign Up
+Email
+First Name
+Last Name
+Password
+Confirm Password
+I agree to the Terms & Conditions and Privacy Policy
+CREATE ACCOUNT
+
+Already have an account?
+
+SIGN IN
+CREATE ACCOUNT disabled when all empty: true
+Input count on sign-up form: 6
+Input type:email placeholder:null
+Input type:text placeholder:null
+Input type:text placeholder:null
+Input type:password placeholder:null
+Input type:password placeholder:null
+Input type:checkbox placeholder:null
