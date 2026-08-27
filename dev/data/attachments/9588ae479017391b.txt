@@ -1,0 +1,3 @@
+CREATE ACCOUNT disabled on empty form: true
+Button disabled after email only: true
+CREATE ACCOUNT enabled when all fields filled: false
