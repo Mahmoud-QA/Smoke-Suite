@@ -1,0 +1,16 @@
+Route /settings/billing -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth | 404: false
+Route /onboarding/subscribe -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth | 404: false
+Route /organizations/subscribe -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth | 404: false
+Billing page content: Sign In
+Email
+Password
+Remember me for 1 day
+SIGN IN
+FORGOT PASSWORD?
+
+Don't have an account?
+
+SIGN UP
+Has plan info: false
+Has pricing info: false
+Page URL: https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth

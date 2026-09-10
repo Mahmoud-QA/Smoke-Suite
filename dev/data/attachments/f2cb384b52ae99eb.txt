@@ -1,0 +1,20 @@
+Register page URL: https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth/signup
+Password inputs on page: 2
+Submit button disabled with weak password: true
+Inline validation errors: [
+  '',
+  '',
+  '',
+  'Password\nMust be at least characters',
+  'Password',
+  '',
+  '',
+  '',
+  '',
+  'Must be at least characters',
+  'Must be at least characters',
+  ''
+]
+Password strength validation triggered: true
+Submit enabled with strong password: false
+Errors with strong password: [ '', '', '', '', '' ]
