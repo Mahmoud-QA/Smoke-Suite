@@ -1,0 +1,9 @@
+v-avatar with initial visible: false
+User initial element found and clicked via evaluate: null
+Menu items after avatar click: []
+Avatar menu opened: false
+Has Sign Out option: false
+Has My Account option: false
+Has Admin Portal option: false
+FINDING: Avatar menu does not contain a Sign Out option in current build.
+FINDING: Avatar menu contains: []
