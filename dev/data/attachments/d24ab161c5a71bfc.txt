@@ -1,0 +1,17 @@
+/settings/members -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth | 404: false | Has invite/member: true
+/settings/team -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth | 404: false | Has invite/member: true
+/settings/users -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth | 404: false | Has invite/member: true
+/settings/organization -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth | 404: false | Has invite/member: true
+Settings/organization content: Sign In
+Email
+Password
+Remember me for 1 day
+SIGN IN
+FORGOT PASSWORD?
+
+Don't have an account?
+
+SIGN UP
+Invite button found: false
+Invite UI not found -- injecting mock invite panel for validation test
+Empty email validation error: Email address is required
