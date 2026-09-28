@@ -1,0 +1,11 @@
+Buttons on forgot-password page: [ '', 'Send Reset Link', ' Back to Login' ]
+Reset button disabled when email empty: true
+Validation errors: [ '', '' ]
+Page text: Reset Password
+
+Enter your email address and we'll send you instructions to reset your password.
+
+Email
+SEND RESET LINK
+BACK TO LOGIN
+Validation shown for empty email: true

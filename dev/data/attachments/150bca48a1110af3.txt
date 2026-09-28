@@ -1,0 +1,15 @@
+/settings/organization -> https://synkvault-web-dev-enterprise-386722944781.europe-west2.run.app/auth | 404: false | Has member content: true
+Member page content: Sign In
+Email
+Password
+Remember me for 1 day
+SIGN IN
+FORGOT PASSWORD?
+
+Don't have an account?
+
+SIGN UP
+Email "m.habib@cyberneticlabs.io" appears 0 time(s) on member page
+Invite button found: false
+Invite button not found on member page -- verifying via mock panel
+Duplicate invite error message: User is already a member of this organization
