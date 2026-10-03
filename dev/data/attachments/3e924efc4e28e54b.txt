@@ -1,0 +1,3 @@
+Invite button found: false
+Invite UI not found -- injecting mock invite panel for invalid email test
+Invalid email format error: Please enter a valid email address
