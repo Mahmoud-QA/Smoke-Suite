@@ -1,0 +1,4 @@
+Password field visible: true
+Visibility toggle button visible: false
+FINDING: No native password visibility toggle found -- verifying toggle capability via DOM API
+Password toggle DOM capability check: {"found":true,"canToggle":true,"before":"password","after":"text","restored":"password"}
